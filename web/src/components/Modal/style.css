@@ -1,0 +1,145 @@
+#modal {
+  background-color: rgba(0, 0, 0, 0.7);
+
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal .container  {
+  background-color: #fff;
+  color: #000;
+
+  width: 525px;
+  height: 525px;
+  border-radius: 8px;
+}
+
+#modal .container span {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#modal .container span {
+  cursor: pointer;
+}
+
+#modal .container .content-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal .container .content-form form {
+  width: 382px;
+  height: 409px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#modal .container form h1 {
+  font-size: 32px;
+}
+
+#modal .container form main {
+  display: flex;
+  flex-direction: column;
+}
+
+#modal .container form .input-form input {
+  width: 380px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+
+  margin-top: 20px;
+  padding: 10px;
+
+  background-color: rgba(183, 190, 195, 0.58);
+}
+
+#modal .container form .input-form .input-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+#modal .container form .input-form .input-group input {
+  width: 180px;
+}
+
+#modal .container form .input-form p {
+  font-size: 12px;
+  margin-top: 8px;
+}
+#modal .container form .input-form p a {
+  color: #1D55BF;
+  font-weight: bold;
+}
+
+#modal .container form button {
+  width: 180px;
+  height: 48px;
+  margin-top: 150px;
+
+  border-radius: 8px;
+  border: none;
+
+  align-self: center;
+
+  background-color: #FF0066;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#modal .container form .btn-cad {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+
+#modal .container form .btn-cad button {
+  margin-top: 62px;
+}
+
+#modal .container form button:hover {
+  background-color: #d40e5d;
+}
+
+/* ANIMATION MODAL */
+@keyframes modal {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -60px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+#modal .container {
+  animation: modal .3s;
+}
+
+
+.react-tabs__tab-list {
+  display: flex;
+  justify-content: flex-end;
+  border: none;
+}
+
+.react-tabs__tab--selected {
+  border: none;
+  border-bottom: 2px solid black;
+}

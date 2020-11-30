@@ -1,0 +1,80 @@
+header {
+  background-color: #0B6178;
+
+  display: flex;
+  justify-content: center;
+}
+
+header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header .logo .imgLogo {
+  width: 72px;
+  margin-bottom: 10px;
+}
+
+header .logo h2 {
+  font-size: 50px;
+  font-weight: 800;
+
+  margin-left: 10px;
+}
+
+header .header-options {
+  width: 400px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .header-options .btn-new {
+  background-color: #FF0066;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: 400;
+
+  width: 290px;
+  height: 60px;
+  margin-left: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  transition: background-color 0.3s;
+}
+
+header .header-options .btn-new:hover {
+  background-color: #d40e5d;
+}
+
+header .header-options button {
+  background-color: #FFF;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+
+  width: 80px;
+  height: 58px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: background-color 0.3s;
+}
+
+header .header-options button:hover {
+  background-color: rgb(196, 196, 201);
+}

@@ -1,0 +1,120 @@
+#container {
+  width: 100vw;
+  height:100vh;
+
+  background: #0B6178;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container .content {
+  width: 100%;
+  max-width: 1100px;
+  height: 100%;
+  max-height: 600px;
+
+  background: url('../../images/fundoo.jpg') no-repeat 70% center;
+  background-size: 45%;
+}
+
+#container .content header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#container .content header .logo {
+  display: flex;
+  align-items: center;
+}
+
+#container .content header .logo .imgLogo {
+  width: 72px;
+}
+
+#container .content header .logo h2 {
+  font-size: 50px;
+  font-weight: 800;
+
+  margin-left: 10px;
+  margin-top: 11px;
+}
+
+#container .content header .cadastro {
+  font-size: 22px;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+}
+
+#container .content header .cadastro a {
+  margin-left: 5px;
+  margin-bottom: 2px;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+#container .content main {
+  max-width: 370px;
+}
+
+#container .content main h1 {
+  max-width: 370px;
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 90px;
+
+  margin-top: 50px;
+}
+
+#container .content main p {
+  margin-top: 30px;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 400;
+
+  margin-top: 40px;
+}
+
+
+#container .content .search-button {
+  display: flex;
+
+  margin-top: 60px;
+}
+
+#container .content .search-button button{
+  width: 222px;
+  height: 62px;
+
+  font-size: 24px;
+  font-weight: 400;
+
+  background: #FF0066;
+  color: #FFFFFF;
+  border-radius: 0 8px 8px 0; 
+  border: none;
+  cursor: pointer;
+
+  transition: background-color 0.3s;
+}
+
+#container .content .search-button button:hover {
+  background: #d40e5d;
+}
+
+#container .content .search-button span {
+  width: 68px;
+  height: 62px;
+
+  background: #A70C4A;
+  border-radius: 8px 0 0 8px ;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

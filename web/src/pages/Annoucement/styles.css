@@ -1,0 +1,101 @@
+.new-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.new-container .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 45px;
+}
+
+.new-container .content h1 {
+  color: #000;
+}
+
+.new-container .content form {
+  background-color: #FFF;
+  border-radius: 8px;
+  padding: 60px;
+
+  width: 784px;
+  height: 741;
+  margin-top: 45px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-container .content form input {
+  background-color: rgba(183, 190, 195, 0.58);
+
+  width: 402px;
+  height: 48px;
+  margin-top: 20px;
+  padding: 10px;
+
+  border: none;
+  border-radius: 8px;
+}
+
+.new-container .content form input[type="file"] {
+  cursor: pointer;
+  color: #737577;
+}
+
+.new-container .content .input-plataforma {
+  width: 140px;
+  height: 48px;
+  margin-left: 58px;
+}
+
+.new-container .content form textarea {
+  background-color: rgba(183, 190, 195, 0.58);
+
+  width: 600px;
+  height: 138px;
+  margin-top: 20px;
+  padding: 10px;
+
+  border: none;
+  border-radius: 8px;
+}
+
+.new-container .content form .input-image {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.new-container .content form .input-image p {
+  color: #737577;
+  margin-top: 20px;
+}
+
+.new-container .content form .input-image input {
+  margin-top: 5px;
+}
+
+.new-container .content form button {
+  background-color: #FF0066;
+  color: #FFF;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 400;
+
+  width: 270px;
+  height: 62px;
+  margin-top: 60px;
+
+  transition: background-color 0.3s;
+}
+
+.new-container .content form button:hover {
+  background-color: #d40e5d;;
+}
